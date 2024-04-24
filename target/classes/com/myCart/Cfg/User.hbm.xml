@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    <class name="com.mycompany.entity.User" table="LOGIN" dynamic-insert="true">
+    <id name="user_id" column="user_id"><generator class="increment"></generator></id>
+    <property name="username" column="username"></property>
+    <property name="email_id" column="email_id"></property>
+    <property name="userPassword" column="userPassword"></property>
+    <property name="userPhone" column="userPhone"></property>
+    <property name="userPic" column="userPic"></property>
+    <property name="userAddress" column="userAddress"></property>
+    <property name="userType" column="userType"></property>
+    </class>
+    </hibernate-mapping>
+
