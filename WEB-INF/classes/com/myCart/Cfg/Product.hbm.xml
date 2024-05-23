@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    <class name="com.mycompany.entity.Product" table="Product" dynamic-insert="true">
+    <id name="product_id" column="product_id"><generator class="increment"></generator></id>
+    <property name="Product_title" column="Product_title"></property>
+    <property name="product_description" column="product_description"></property>
+    <property name="product_photo" column="product_photo"></property>
+    <property name="product_price" column="product_price"></property>
+    <property name="product_discount" column="product_discount"></property>
+    <property name="product_quantity" column="product_quantity"></property>
+    <property name="category_id" column="category_id"></property>
+    </class>
+    </hibernate-mapping>
