@@ -1,6 +1,0 @@
-com\mycompany\entity\Category.class
-com\mycompany\entity\User.class
-com\mycompany\servlets\LoginServlet.class
-com\mycompany\entity\Product.class
-com\mycompany\servlets\RegisterServlet.class
-com\mycompany\dao\UserDao.class
